@@ -2,6 +2,13 @@
 /* CSS Document */
 /*======================================================*/
 /*==================  GLOBAL STYLES  ===================*/
+
+.clearfix::after {
+	clear: both;
+	content: ' ';
+	display: table;
+}
+
 body {
 	background-color: #93d1de;
 	background-image: url(../images/global/bg.jpg);
@@ -274,3 +281,44 @@ iframe {
 	top: -28px;
 }
 
+#pricing {
+	color: #02333e;
+	text-shadow: 1px 1px 4px #c0e5ec;
+}
+
+#pricing h2,
+#pricing h3 {
+	float: none;
+}
+
+#pricing h3 {
+	margin: 20px 0 10px;
+}
+
+/* outer list */
+#pricing > ul {
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+}
+
+#pricing > ul > li {
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 20px;
+	width: 45%;
+	font-size: 14px;
+}
+
+#pricing > ul > li:nth-child(odd) {
+	margin-right: 10%;
+}
+
+#pricing > ul > li ul {
+	list-style-type: disc;
+	padding-left: 20px;
+}
+
+#pricing > ul > li li {
+	margin: 10px 0;
+}
