@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* IE7 STYLES */
+
+/*======================================================*/
+/*==================  GLOBAL STYLES  ===================*/
+
+img.logo {
+	margin: 0 auto;
+	float: none;
+}
+
+div.inner_container {
+	display: none;
+}
+
+#slider_bg {
+	display: none;
+}
+
+#footer {
+	display: none;
+}
+
+#navigation {
+	display: none;
+}
+
+#ie7 {
+	display: block;
+	margin-left: 72px;
+}
+
+h1.ie7 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #002e37;
+	clear: both;
+}
+
+h3.ie7 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	font-size: 18px;
+	clear: both;
+}
+
+a.ie7 {
+	margin-top: 10px;
+	font-size: 18px;
+	color: #002e37;
+	font-style: italic;
+	clear: both;
+}
+
+a.ie7:hover {
+	text-decoration: underline;
+}

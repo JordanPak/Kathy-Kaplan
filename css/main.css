@@ -1,0 +1,276 @@
+@charset "utf-8";
+/* CSS Document */
+/*======================================================*/
+/*==================  GLOBAL STYLES  ===================*/
+body {
+	background-color: #93d1de;
+	background-image: url(../images/global/bg.jpg);
+	background-repeat: repeat;
+	font-family: 'Istok Web', Arial;
+	font-size: 12px;
+	color: #fff;
+}
+
+#topbar {
+	float: left;
+	width: 100%;
+	background-image: url(../images/global/topbar.png);
+	background-repeat: repeat-x;
+	height: 12px;
+}
+
+#container {
+	margin: 0 auto;
+	width: 808px;
+}
+
+#ie7 {
+	display: none;
+}
+
+div.inner_container {
+	float: left;
+	margin-left: 4px;
+	margin-top: 24px;
+	width: 800px;
+}
+
+img.logo {
+	float: left;
+	margin-left: 184px;
+}
+
+img.title_icon {
+	float: left;
+	margin-right: 7px;
+	position: relative;
+	top: -3px;
+}
+
+img.title_icon_email {
+	float: left;
+	margin-right: 7px;
+	position: relative;
+	top: 0px;
+}
+
+ul.services {
+	margin-top: 12px;
+	margin-left: 18px;
+	float: left;
+	clear: both;
+	color: #000;
+	text-align: left;
+	font-size: 16px;
+	line-height: 22px;
+	text-shadow: 1px 1px 1px #d5f8ff, 1px 1px 1px #d5f8ff;
+	letter-spacing: .06em;
+	list-style-position: outside;
+	list-style-type: circle;
+}
+
+ul.services li {
+	margin-bottom: 12px;
+	cursor: default;
+}
+
+ul.services_indented {
+	margin-top: 12px;
+	margin-left: 56px;
+	float: left;
+	clear: both;
+	color: #000;
+	text-align: left;
+	font-size: 16px;
+	line-height: 22px;
+	text-shadow: 1px 1px 1px #d5f8ff, 1px 1px 1px #d5f8ff;
+	letter-spacing: .06em;
+	list-style-position: outside;
+	list-style-type: circle;
+}
+
+ul.services_indented li {
+	margin-bottom: 12px;
+	cursor: default;
+}
+
+#footer {
+	float: left;
+	clear: both;
+	background-image: url(../images/global/footer.png);
+	width: 800px;
+	height: 68px;
+	margin-top: 24px;
+}
+
+/*==========================*/
+/*===== NAVIGATION =========*/
+ul#navigation {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 808px;
+	height: 48px;
+}
+
+ul#navigation li a {
+	font-size: 0;
+	float: left;
+	height: 48px;
+}
+
+ul#navigation li a.home {
+	width: 85px;
+	background-image: url(../images/global/navigation.png);
+	background-position: 0px 0px;
+}
+
+ul#navigation li a.home:hover {
+	background-position: 0px -48px;
+}
+
+ul#navigation li a.about {
+	width: 111px;
+	background-image: url(../images/global/navigation.png);
+	background-position: -85px 0px;
+}
+
+ul#navigation li a.about:hover {
+	background-position: -85px -48px;
+}
+
+ul#navigation li a.marketing {
+	width: 206px;
+	background-image: url(../images/global/navigation.png);
+	background-position: -196px 0px;
+}
+
+ul#navigation li a.marketing:hover {
+	background-position: -196px -48px;
+}
+
+ul#navigation li a.public_relations {
+	width: 157px;
+	background-image: url(../images/global/navigation.png);
+	background-position: -402px 0px;
+}
+
+ul#navigation li a.public_relations:hover {
+	background-position: -402px -48px;
+}
+
+ul#navigation li a.photography {
+	width: 130px;
+	background-image: url(../images/global/navigation.png);
+	background-position: -559px 0px;
+}
+
+ul#navigation li a.photography:hover {
+	background-position: -559px -48px;
+}
+
+ul#navigation li a.contact {
+	width: 119px;
+	background-image: url(../images/global/navigation.png);
+	background-position: -689px 0px;
+}
+
+ul#navigation li a.contact:hover {
+	background-position: -689px -48px;
+}
+
+/*===================================================*/
+/*============== INDEX PAGE ONLY ====================*/
+#slider_bg {
+	float: left;
+	background-image: url(../images/index/slider_bg.png);
+	width: 808px;
+	height: 308px;
+	margin-top: 14px;
+}
+
+#slider {
+    position:relative;
+    width: 780px; /* Change this to your images width */
+    height: 280px; /* Change this to your images height */
+	top: 14px;
+	left: 14px;
+}
+
+#slider img {
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;
+}
+
+#welcome {
+	float: left;
+	margin: 0px;
+	margin-left: 10px;
+	padding: 0px;
+	width: 366px;
+}
+
+#index_photography {
+	float: left;
+	width: 375px;
+	margin: 0px;
+	margin-left: 48px;
+}
+
+#index_gallery {
+	float: left;
+	clear: both;
+	margin: 0px;
+	margin-left: 34px;
+	margin-top: 4px;
+	padding: 0px;
+}
+
+div.index_thumb {
+	float: left;
+	margin: 0px;
+	margin-right: 6px;
+	margin-bottom: 10px;
+	padding: 0px;
+	background-image: url(../images/index/thumbnail.png);
+	width: 107px;
+	height: 107px;	
+}
+
+div.index_thumb img {
+	position: relative;
+	top: 5px;
+	left: 5px;
+}
+
+/*===================================================*/
+/*============== ABOUT PAGE ONLY ====================*/
+img.about_portrait {
+	float: left;
+}
+
+#about_me {
+	float: left;
+	margin: 0px;
+    margin-left: 36px;
+	padding: 0px;
+	width: 327px;
+}
+
+/*===================================================*/
+/*============== CONTACT PAGE ONLY ==================*/
+#contact {
+	float: left;
+	margin-left: 127px;
+	margin-top: 30px;
+}
+
+iframe {
+	float: left;
+	margin-left: -30px;
+	position: relative;
+	top: -28px;
+}
+

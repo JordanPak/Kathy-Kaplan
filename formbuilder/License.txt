@@ -1,0 +1,12 @@
+FormBuilder  v. 1.0
+
+Copyright (c) 2011 ZineScripts
+http://www.zinescripts.com/
+
+You are in posession of this script as you have purchased it from http://www.zinescripts.com/
+You are free to use this script, and modify it as you see fit, as long as you abide by the following rules:
+
+* You cannot resell, redistribute, or otherwise make available any version of the script, or parts of the script.
+* You cannot use parts of the script to power other software.
+
+Contact us for any licensing issues or questions at http://www.zinescripts.com/pages/contact/

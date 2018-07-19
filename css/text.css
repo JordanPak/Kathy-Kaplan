@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+/*======================================================*/
+/*==================  GLOBAL STYLES  ===================*/
+a {
+	color: #044856;
+	text-decoration: none;
+}
+
+a.dotlink {
+	border-bottom: 1px dotted #044856;
+
+}
+
+a.dotlink:hover {
+	color: #fff;
+	text-shadow: 1px 1px 2px #044856, 1px 1px 1px #044856;
+}
+
+b {
+	font-weight: bold;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+/*======================================================*/
+/*==================  PARAGRAPH STYLES  ================*/
+
+p {
+	float: left;
+	clear: both;
+	color: #000; /*#002e37;*/
+	text-align: left;
+	font-size: 16px;
+	line-height: 22px;
+	text-shadow: 1px 1px 1px #d5f8ff, 1px 1px 1px #d5f8ff;
+	letter-spacing: .06em;
+}
+
+p.indented {
+	margin-left: 44px;
+}
+
+p.copyright {
+	clear: none;
+	color: #fff;
+	font-size: 14px;
+	text-shadow: 1px 1px 0px #286572, 1px 1px 1px #286572;
+	position: relative;
+	top: 43px;
+	left: 10px;
+}
+
+p.footer_nav {
+	float: right;
+	clear: none;
+	position: relative;
+	top: -14px;
+	right: 10px;
+	font-size: 12px;
+	font-weight: bold;
+	text-shadow: 1px 1px 0px #d5f8ff, 1px 1px 0px #d5f8ff;
+	letter-spacing: normal;
+}
+
+p.footer_nav a {
+	color: #000;
+}
+
+p.footer_nav a:hover {
+	border-bottom: 1px dotted #000;
+}
+
+/*======================================================*/
+/*======================  H1 STYLES  ===================*/
+/*======================================================*/
+/*==================  H2 STYLES  =======================*/
+
+h2 {
+	float: left;
+	text-align: left;
+	font-size: 24px;
+	font-weight: bold;
+	color: #044856;
+	letter-spacing: -.04em;
+	text-shadow: 1px 1px 1px #d5f8ff, 1px 1px 1px #d5f8ff;
+}
+
+/*======================================================*/
+/*==================  H3 STYLES  =======================*/
+
+h3 {
+	float: left;
+	clear: both;
+	margin-left: 40px;
+	margin-top: 12px;
+	color: #044856;
+	font-weight: bold;
+	font-size: 18px;
+	letter-spacing: -.04em;
+	text-shadow: 1px 1px 1px #d5f8ff, 1px 1px 1px #d5f8ff;
+}
+
+/*======================================================*/
+/*==================  H4 STYLES  =======================*/
+
+h4 {
+	float: right;
+	margin-right: 70px;
+	margin-top: 12px;
+	color: #044856;
+	font-weight: bold;
+	font-size: 18px;
+	letter-spacing: -.04em;
+	text-shadow: 1px 1px 1px #d5f8ff, 1px 1px 1px #d5f8ff;
+	line-height: 24px;
+}
+
